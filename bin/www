@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+const app = require('../app');
+app.listen(3000,function(){
+    console.log('启动服务器成功！监听3000端口');
+})
